@@ -1,5 +1,5 @@
 import logo from "../assets/logo.png";
-
+import {navItems} from "../constants";
 
 const Navbar = () => {
   return (
@@ -11,7 +11,11 @@ const Navbar = () => {
                     <span className="text-xl tracking-tight">Virtual VR</span>  
                 </div>
                 <ul className="hidden lg:flex ml-14 space-x-12">
-
+                    {navItems.map((item, index) => (
+                        <li key={index}>
+                            <a href={item.href}>{item.label}</a>
+                        </li>
+                    ))}
                 </ul>
             </div>
         </div>
