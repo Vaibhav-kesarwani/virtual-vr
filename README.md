@@ -28,8 +28,8 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/virtual-vr-website.git
-   cd virtual-vr-website
+   git clone https://github.com/your-username/virtual-vr.git
+   cd virtual-vr
 
 2. **Install dependencies:**  If you’re using npm:
 ```bash
